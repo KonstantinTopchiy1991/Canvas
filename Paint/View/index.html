@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="toolbar">
+        <div id="colors"> Colors: <input type="color" value="#ffff00" name="myColor" id="myColor"></div>
+        <button id="lineHorizontal"> <img src="images/line.png" width="40" height="30"></button>
+        <button id="lineVertical"> <img src="images/Vertical.png" width="40" height="30"></button>
+        <button id="rectangle"> <img src="images/rectangle.png" width="40" height="30"></button>
+        <button id="fill"> <img src="images/fill.png" width="40" height="30"></button>
+        <button id="oblLine"> <img src="images/oblLine.png" width="40" height="30"></button>
+        <button id="bucket"> <img src="images/bucket.png" width="40" height="30"></button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="../Model/canvas.js"></script>
+    <script src="../Controller/indexController.js"></script>
+    <script src="../Init/init.js"></script>
+</body>
+</html>

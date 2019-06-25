@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+#canvas {
+    display: block;
+}
+
+#toolbar {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    background-color: #2f2f2f;
+    overflow: auto;
+}
+
+#colors {
+    position: relative;
+    float: left;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Verdana, serif;
+    color: white;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+#myColor {
+    cursor: pointer;
+}
+
+#lineHorizontal {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+#lineVertical {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+
+#rectangle {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+#fill {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+#oblLine {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    margin-right: 20px;
+}
+
+#bucket {
+    position: relative;
+    float: left;
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
